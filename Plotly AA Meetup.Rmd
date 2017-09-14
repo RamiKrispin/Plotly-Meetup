@@ -3,9 +3,9 @@ title: "<p>Introduction to Plotly</p> <p>Ann Arbor R User Group</p>"
 author: "Rami Krispin"
 date: "September 14, 2017"
 output:
- 
   slidy_presentation:
     duration: 30
+    
 ---
 
 ```{r setup, include=FALSE}
@@ -34,7 +34,8 @@ d <- diamonds[sample(nrow(diamonds), 1000), ]
 
 - Data scientist at EY
 - Focus mainly on time series and predictive analysis 
-- Use R around 4 years
+- Use plotly on a daily basis
+- Work with R around 4 years
 - Developing shiny based package for ML and forecasting application
 - M.S in Actuarial Mathematics and M.A Applied Economics  
 
