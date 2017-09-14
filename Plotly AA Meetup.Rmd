@@ -503,7 +503,7 @@ p <- p %>%  layout(
 Seasonal plot:
 
 - Helps to identify seasonal pattern and assess the series growth
-- Its seems like that the vehicle sales pick was during 2015 
+- Its seems like that the vehicle sales peak was during 2015 
 - Plotly provide a dynamic legend
 
 
