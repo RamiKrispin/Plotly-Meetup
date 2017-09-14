@@ -30,7 +30,7 @@ d <- diamonds[sample(nrow(diamonds), 1000), ]
 - Plotly with Shiny Example  
 
 
-## About Me
+## Introduction
 
 - Data scientist at EY
 - Focus mainly on time series and predictive analysis 
@@ -42,7 +42,7 @@ d <- diamonds[sample(nrow(diamonds), 1000), ]
 
 ## Quick Poll
 
-How many familiar with:
+How many are familiar with:
 
 - Plotly
 - ggplot2
@@ -194,10 +194,10 @@ plot_ly(z = ~volcano) %>% add_surface()
 ## Plotly - Introduction
 
 - Canadian company, developing tools for data visualization and dashboard applications
-- Offering an open source packages for interactive data visualization based on D3.js
+- Offering open source packages for interactive data visualization based on D3.js
 - API libraries are avilable for R, Python, MATLAB, Julia and others
 - Created the Dash - a Python framework for web-based interfaces
-- Orginazing the PLOTCON conference 
+- Organizers of the PLOTCON conference 
 
 ## Plotly - Introduction
 
@@ -312,7 +312,7 @@ p
 Shapes function:
 
 - Use the shapes function to mark years where the yearly sales decreased with respect to the previous year
-- Using loop to add or create new objects in plotly, could save time when we have multiple/reputable process    
+- Using loop to add or create new objects in plotly, could save time when we have multiple/reputable processes    
 
 
 ```{r, echo=TRUE}
@@ -388,7 +388,7 @@ plot_ly(data = df1)%>%
 Using multiple axis:
 
 -	Adding second Y axis 
--	Useful when we want to plot objects with different scale or measurement units
+-	Useful when we want to plot objects with different scales or measurement units
 
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE}
@@ -483,7 +483,7 @@ ts.df_wide <- reshape2::dcast(ts.df, dec_right ~ dec_left )
 
 Creating seasonal plot:
 
-- Creating line for each year in the data using loop (time saver!) 
+- Creating a line for each year in the data using loop (time saver!) 
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE, warning=FALSE, fig.height=5, fig.width=14}
 p <- plot_ly()
@@ -503,8 +503,8 @@ p <- p %>%  layout(
 Seasonal plot:
 
 - Helps to identify seasonal pattern and assess the series growth
-- Its seems like that the vehicle sales peak was during 2015 
-- Plotly provide a dynamic legend
+- Its seems like the vehicle sales peak was during 2015 
+- Plotly provides a dynamic legend
 
 
 ```{r, echo=FALSE, fig.height=5, fig.width=14, message=FALSE, warning=FALSE}
@@ -624,7 +624,7 @@ accuracy(fc_arima$mean, test)
 ## Vehicle Sales Dataset - Forecast
 
 - The model output contains the fitted values from the training set and the forecast values. 
-- visualize those values vs. the actual values could provide us more insights about the performance of the model beside the MAPE or the RMSE values
+- Plotting those values vs. the actual values could provide us with more insights regarding the performance of the model besides the MAPE or the RMSE values
 
 
 ```{r, echo=TRUE}
