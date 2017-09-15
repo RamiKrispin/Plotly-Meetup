@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/308180/5e5063a454ee4dac864df506fabae656
+bundleId: https://api.rpubs.com/api/v1/document/308180/5e5063a454ee4dac864df506fabae656
+url: http://rpubs.com/ramkrisp/308180
+when: 1505480636.83768
