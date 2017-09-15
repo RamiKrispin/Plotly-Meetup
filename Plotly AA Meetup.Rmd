@@ -38,7 +38,8 @@ d <- diamonds[sample(nrow(diamonds), 1000), ]
 - Work with R around 4 years
 - Developing shiny based package for ML and forecasting application
 - M.S in Actuarial Mathematics and M.A Applied Economics  
-
+- rami.krispin@gmail.com
+- github.com/RamiKrispin
 
 ## Quick Poll
 
